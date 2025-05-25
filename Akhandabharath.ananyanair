@@ -37,6 +37,10 @@
   <h1>Akhanda Bharath: An ode to India that is Bharat</h1>
   <div class="author">by Ananya Nair</div>
   <h2>Visualising by Maps</h2>
+<div class="section">
+  <h2>Visualising by Maps</h2>
+  <!-- Image grid here -->
+</div>
   <div class="map-grid">
     <img src="2d21d01586bb61c353297d420e9d9c0e.jpg" alt="Map 1 Placeholder">
     <img src="image-300.png" alt="Map 2 Placeholder">
