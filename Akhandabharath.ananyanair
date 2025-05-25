@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akhanda Bharath</title>
+  <style>
+    body {
+      background-color: #f6edd9;
+      font-family: 'Georgia', serif;
+      color: #4a2c00;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 1.5em;
+    }
+    .author {
+      font-size: 1em;
+      margin-bottom: 30px;
+    }
+    .map-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+    .map-grid img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Akhanda Bharath: An ode to India that is Bharat</h1>
+  <div class="author">by Ananya Nair</div>
+  <h2>Visualising by Maps</h2>
+  <div class="map-grid">
+    <img src="map1.jpg" alt="Map 1 Placeholder">
+    <img src="map2.jpg" alt="Map 2 Placeholder">
+    <img src="map3.jpg" alt="Map 3 Placeholder">
+    <img src="map4.jpg" alt="Map 4 Placeholder">
+    <img src="map5.jpg" alt="Map 5 Placeholder">
+  </div>
+</body>
+</html>
