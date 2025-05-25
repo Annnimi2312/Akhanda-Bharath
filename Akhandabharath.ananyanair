@@ -2,51 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Akhanda Bharath</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #f6edd9;
+      background-image: url('parchment.jpg'); /* Upload a parchment-style background image */
+      background-size: cover;
+      background-attachment: fixed;
       font-family: 'Georgia', serif;
       color: #4a2c00;
       padding: 20px;
+      line-height: 1.6;
     }
+
     h1 {
-      font-size: 2.5em;
+      font-family: 'Cinzel', serif;
+      font-size: 2.8em;
+      margin-bottom: 10px;
     }
-    h2 {
-      font-size: 1.5em;
-    }
+
     .author {
       font-size: 1em;
       margin-bottom: 30px;
+      font-style: italic;
     }
+
+    .section {
+      background: rgba(255, 248, 220, 0.9);
+      border: 2px solid #b38b00;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
     .map-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 15px;
     }
+
     .map-grid img {
       width: 100%;
       height: auto;
       border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .map-grid img:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+      box-shadow: 0 0 10px #aa7a00;
+    }
+
+    hr {
+      border: none;
+      height: 2px;
+      background: #b38b00;
+      margin: 30px 0;
     }
   </style>
 </head>
 <body>
   <h1>Akhanda Bharath: An ode to India that is Bharat</h1>
   <div class="author">by Ananya Nair</div>
-  <h2>Visualising by Maps</h2>
-<div class="section">
-  <h2>Visualising by Maps</h2>
-  <!-- Image grid here -->
-</div>
-  <div class="map-grid">
-    <img src="2d21d01586bb61c353297d420e9d9c0e.jpg" alt="Map 1 Placeholder">
-    <img src="image-300.png" alt="Map 2 Placeholder">
-    <img src="4oiex9alj7o71.png" alt="Map 3 Placeholder">
-    <img src="48e5016c0522e8ee2febca7c17cf9177.jpg" alt="Map 4 Placeholder">
-    <img src="file-20170813-27082-1r6fpd6.png" alt="Map 5 Placeholder">
+  <hr />
+  <div class="section">
+    <h2>Visualising by Maps</h2>
+    <div class="map-grid">
+      <img src="Map1.html" alt="Map 1 Placeholder">
+      <img src="Map2.html" alt="Map 2 Placeholder">
+      <img src="Map3.html" alt="Map 3 Placeholder">
+      <img src="Map4.html" alt="Map 4 Placeholder">
+      <img src="Map5.html" alt="Map 5 Placeholder">
+    </div>
   </div>
 </body>
 </html>
